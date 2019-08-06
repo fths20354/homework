@@ -1,0 +1,33 @@
+* {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    height: 100%;
+    background-color: rgba(137, 129, 161, 0.74);
+}
+#people {
+    height: 70%;
+    width: 80%;
+    margin: 125px auto auto auto;
+}
+#navy {
+    display: inline-block;
+}
+#line {
+    display: inline-block;
+    width: 29%;
+}
+#card {
+    display: inline-block;
+    height: 70%;
+    width: 70%;
+    background-image: url("https://images.unsplash.com/photo-1552674958-c129f4eb63db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1212&q=80");
+    background-size: cover;
+    margin-right: 0px;
+}
+footer {
+    vertical-align: bottom;
+}
