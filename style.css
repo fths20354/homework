@@ -1,5 +1,5 @@
 * {
-    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,0);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,18 +12,39 @@ body,html {
     height: 70%;
     width: 80%;
     margin: 125px auto auto auto;
+    background-color: rgba(179, 135, 54, 0.616);
 }
 #navy {
     display: inline-block;
+    float: right;
+}
+#title {
+    font-size: 50px;
+}
+.tab {
+    margin-right: 50px;
 }
 #line {
     display: inline-block;
-    width: 29%;
+    width: 30%;
+}
+#donate {
+    margin: 20px auto 20px auto ;
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+    line-height: 150px;
+}
+p {
+    line-height: 50px;
 }
 #card {
     display: inline-block;
     height: 70%;
-    width: 70%;
+    width: 69%;
     background-image: url("https://images.unsplash.com/photo-1552674958-c129f4eb63db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1212&q=80");
     background-size: cover;
     margin-right: 0px;
